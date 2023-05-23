@@ -1,7 +1,7 @@
 ### Spring Boot intro
 
 ## Notes
-Don't commit application.properties file with passwords/usernames and other related data that could be a security concern. I've got an example on how to use env variables with docker (only for the postgresql databas container env) that will be attached to the commit that caries this same message.
+Don't commit application.properties file with passwords/usernames and other related data that could be a security concern. I've got an example on how to use env variables with docker (only for the postgresql databas container env and you don't push .env to the repository) that will be attached to the commit that caries this same message.
 
 ## What is this?
 This is a project that recruiters and tech recruiters can take a look. :)
