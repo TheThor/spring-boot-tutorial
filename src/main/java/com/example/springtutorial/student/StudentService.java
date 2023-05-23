@@ -23,4 +23,9 @@ public class StudentService {
     public Optional<Student> listStudent(Long id) {
         return studentRepository.findById(id);
     }
+
+    public void addNewStudent(Student student) {
+        System.out.println(student);
+        //studentRepository.save(student);
+    }
 }
